@@ -1,0 +1,320 @@
+.video-bg {
+       position: fixed;
+       /* Covers the full screen */
+       top: 0;
+       left: 0;
+       width: 100vw;
+       height: 100vh;
+       object-fit: cover;
+       /* Ensures the video fully covers the div */
+       z-index: -1;
+       /* Moves it behind the content */
+       opacity: 0.3;
+       /* Adjust opacity as needed */
+}
+
+
+
+
+
+/* .sass {
+       justify-content: space-between;
+       display: flex;
+       flex-wrap: wrap;
+} */
+
+
+/* .langs {
+       border: 2px solid rgb(0, 0, 0);
+       border-radius: 50%;
+       position: relative;
+       overflow: hidden;
+       width: 130px;
+       height: 130px;
+      
+       justify-content: center;
+       align-items: center;
+       background-color: white;
+       display: flex;
+       box-shadow: -10px 15px rgba(0, 0, 0, 0.911), 9px 15px 15px #13073B
+}
+
+.imgstyle {
+       object-fit: cover;
+       width: 60%;
+       height: 60%;
+       position: absolute;
+       top: 50;
+
+
+} */
+
+/* .langstext {
+       margin-top: 20px;
+       font-size: 20px;
+       font-weight: bold;
+       color: #13073B;
+} */
+
+
+
+.inner {
+       width: 370px;
+       height: 400px
+}
+
+.Skills-container {
+       gap: 30px;
+       margin-top: 20px;
+
+}
+
+.Skills {
+       background-color: rgba(255, 255, 255, 0.3);
+       width: 100%;
+       min-height: 400px;
+       padding: 20px;
+       border-radius: 40px;
+       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+
+}
+
+@media (max-width: 768px) {
+       .Skills {
+              width: 96%;
+
+       }
+}
+
+@media (max-width: 768px) {
+       .progress-bar {
+              width: 160px !important;
+
+       }
+}
+
+
+
+@media (max-width: 768px) {
+       .Skills img {
+              width: 35px;
+              height: 35px;
+
+       }
+}
+
+
+
+.Skillstext {
+       font-size: 25px;
+       font-weight: bold;
+       color: #13073B;
+       margin-bottom: 20px;
+       text-align: center;
+       font-family: 'Exo 2', sans-serif;
+       margin-top: 20px;
+}
+
+.progress-bar {
+       background-color: rgb(255, 255, 255);
+       border-radius: 40px;
+       height: 9px;
+       width: 250px;
+       margin: 10px;
+       position: relative;
+       overflow: visible;
+
+}
+
+.progress-bar div {
+       height: 10px;
+       width: 0%;
+       border-radius: 40px;
+}
+
+.progress-bar div span {
+       top: 15px;
+       right: 50%;
+       /* Centers it at the end of the fill */
+       transform: translate(50%, -30%);
+       float: right;
+       background-color: #ffffff;
+       height: 25px;
+       width: 25px;
+       border-radius: 50%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size: 10px;
+       font-weight: bold;
+       border: rgb(0, 0, 0) solid 1px;
+       box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.react {
+       background-color: aqua;
+       animation: react 1s linear forwards;
+}
+
+.Redux {
+       background-color: rgb(80, 9, 138);
+       animation: react 1s linear forwards;
+}
+
+.Tailwindcss {
+       background-color: rgb(69, 199, 199);
+       animation: Tailwindcss 1s linear forwards;
+
+}
+
+.Materialui {
+       background-color: rgb(11, 107, 172);
+       animation: Materialui 1s linear forwards;
+
+}
+
+.HTML {
+       background-color: rgb(255, 81, 0);
+       animation: HTML 1s linear forwards;
+
+}
+
+.Css {
+       background-color: rgb(108, 153, 212);
+       animation: Css 1s linear forwards;
+
+}
+
+.Sass {
+       background-color: palevioletred;
+       animation: Sass 1s linear forwards;
+
+}
+
+.Javascript {
+       background-color: rgb(228, 228, 129);
+       animation: Javascript 1s linear forwards;
+
+}
+
+.Python {
+       background-color: rgb(81, 81, 236);
+       animation: Python 1s linear forwards;
+
+}
+
+.Postman {
+       background-color: rgb(255, 102, 0);
+       animation: Postman 1s linear forwards;
+
+}
+
+.Insomnia {
+       background-color: indigo;
+       animation: Insomnia 1s linear forwards;
+
+}
+
+.GitHub {
+       background-color: rgb(0, 0, 0);
+       animation: GitHub 1s linear forwards;
+
+}
+
+.Figma {
+       background-color: rgb(30, 236, 133);
+       animation: Figma 1s linear forwards;
+
+}
+
+.Canva {
+       background-color: aqua;
+       animation: Canva 1s linear forwards;
+
+}
+
+
+@keyframes react {
+       100% {
+              width: 85%;
+       }
+}
+
+@keyframes Redux {
+       100% {
+              width: 85%;
+       }
+}
+
+@keyframes Tailwindcss {
+       100% {
+              width: 85%;
+       }
+}
+
+@keyframes Materialui {
+       100% {
+              width: 85%;
+       }
+}
+
+@keyframes HTML {
+       100% {
+              width: 90%;
+       }
+}
+
+@keyframes Css {
+       100% {
+              width: 86%;
+       }
+}
+
+@keyframes Sass {
+       100% {
+              width: 85%;
+       }
+}
+
+@keyframes Javascript {
+       100% {
+              width: 85%;
+       }
+}
+
+@keyframes Python {
+       100% {
+              width: 80%;
+       }
+}
+
+@keyframes Postman {
+       100% {
+              width: 85%;
+       }
+}
+
+@keyframes Insomnia {
+       100% {
+              width: 84%;
+       }
+}
+
+@keyframes GitHub {
+       100% {
+              width: 85%;
+       }
+}
+
+@keyframes Figma {
+       100% {
+              width: 80%;
+       }
+}
+
+@keyframes Canva {
+       100% {
+              width: 80%;
+       }
+}

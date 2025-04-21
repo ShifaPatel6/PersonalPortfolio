@@ -1,0 +1,43 @@
+.main-Skill {
+
+       width: 100%;
+       min-height: 100vh;
+
+       overflow: hidden;
+}
+
+.SkillHeading {
+       color: rgb(255, 255, 255);
+       font-size: 40px;
+       font-weight: bold;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-family: 'Exo 2', sans-serif ;
+       text-shadow: 0 0 10px rgb(19, 8, 80), 0 0 20px rgb(19, 8, 80);
+
+}
+
+@media (max-width: 768px) {
+
+       .SkillHeading {
+              font-size: 25px;
+
+       }
+}
+
+.footerStyled {
+       background-color: #9287b6;
+       /* font-weight: bold; */
+       font-size: 13px;
+       color: gray;
+       font-family: 'Exo 2', sans-serif;
+}
+
+.Skill-section {
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       padding: 20px;
+       flex-wrap: wrap;
+}

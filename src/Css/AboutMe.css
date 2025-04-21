@@ -1,0 +1,78 @@
+.photoAbout {
+       width: 12%;
+       height: 12%;
+       margin-top: 20px;
+}
+
+.Text {
+       font-size: 20px;
+       color: #13073B;
+       font-family: 'Exo 2', sans-serif;
+       font-weight: bold;
+       text-align: center;
+}
+
+.background {
+       display: flex;
+       flex-direction: column;
+       overflow-y: auto;
+
+}
+
+.Text1 {
+       /* font-size: 18px; */
+       font-family: 'Exo 2', sans-serif;
+
+}
+
+.year {
+       color: gray;
+       font-family: 'Exo 2', sans-serif;
+
+
+}
+
+.exp {
+       font-size: 13px;
+}
+
+.maincontainer {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       width: 100%;
+       max-width: 1200px;
+       margin: 30px auto 0;
+       gap: 20px;
+       position: relative;
+       /* padding: 6px; */
+}
+
+.section {
+       flex: 1;
+       min-width: 300px;
+       padding: 20px;
+       background-color: rgba(255, 255, 255, 0.3);
+       border-radius: 40px;
+       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+       /* margin-top: 30px; */
+}
+
+
+@media (max-width: 768px) {
+       .section {
+              min-width: 100%;
+       }
+
+       .maincontainer {
+              gap: 30px;
+       }
+}
+
+
+.individualEdu {
+       margin-bottom: 15px;
+       padding: 15px;
+       background-color: #f5f5f5;
+       border-radius: 5px;
+}

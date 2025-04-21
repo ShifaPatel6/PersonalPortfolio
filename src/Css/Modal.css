@@ -1,0 +1,14 @@
+.StyledTitle {
+       color: #13073B;
+}
+
+.tech {
+       font-weight: bold;
+       margin-top: 20px;
+       font-family: 'Exo 2', sans-serif;
+       background-color: #bdaaf8;
+       padding: 15px;
+       color: #000;
+       border-radius: 20px;
+       font-size: 16px;
+}

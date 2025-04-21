@@ -1,0 +1,147 @@
+.contactsection {
+       gap: 30px;
+       background-color: rgba(255, 255, 255, 0.3);
+       /* padding: 30px; */
+       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+       border-radius: 40px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       width: 100%;
+       max-width: 800px;
+       margin-left: 20px;
+       padding: 20px;
+
+}
+
+.labelStyle {
+       font-size: 18px;
+       margin-top: 5px;
+       font-family: 'Exo 2', sans-serif;
+       color: #13073B;
+}
+
+.main {
+       overflow-x: hidden;
+       height: 100vh;
+}
+
+.contactform {
+       /* display: flex;
+       flex-direction: column; */
+       gap: 15px;
+       width: 60%;
+
+}
+
+@media (max-width: 768px) {
+       .contactimg {
+
+              height: 300px;
+              width: 300px;
+       }
+}
+
+
+
+.textbox {
+       width: 100%;
+       max-width: 400px;
+       border: rgba(255, 255, 255, 0.3) solid 3px;
+       border-radius: 8px;
+       box-sizing: border-box;
+}
+
+.Social {
+       border: rgba(255, 255, 255, 0.3) solid 3px;
+       padding: 20px;
+       border-radius: 40px;
+       width: auto;
+       /* Changed from 100px */
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 350px;
+       /* Fixed height for desktop */
+       flex-shrink: 0;
+       /* Prevents shrinking */
+}
+
+.SocialIcons {
+       display: flex;
+       flex-direction: column;
+       /* Stack vertically by default */
+       gap: 40px;
+       align-items: center;
+}
+
+.SocialIcons a {
+       margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+       .contactsection {
+              flex-direction: column;
+              padding: 25px;
+              align-items: center;
+       }
+
+       .contactform {
+              width: 75%;
+              max-width: 120%;
+
+       }
+
+
+       .Social {
+              width: 70%;
+              /* Full width on mobile */
+              height: auto;
+              /* Auto height on mobile */
+              padding: 15px;
+              margin-top: 20px;
+       }
+
+       .SocialIcons {
+              flex-direction: row;
+              /* Horizontal on mobile */
+              gap: 25px;
+       }
+}
+
+.maindiv {
+       display: flex;
+       flex-direction: row;
+       /* Stack vertically on mobile */
+       align-items: center;
+       padding: 15px;
+       width: 100%;
+       justify-content: center;
+}
+
+.contactimg {
+       margin-right: 0;
+       max-width: 350px;
+       width: 100%;
+       height: auto;
+}
+
+
+
+@media (max-width: 500px) {
+       .contactsection {
+              padding: 20px;
+              border-radius: 20px;
+       }
+
+
+       .SocialIcons {
+              gap: 15px;
+       }
+
+       .SocialIcons img {
+              width: 30px;
+              height: 30px;
+       }
+}
