@@ -1,7 +1,6 @@
 import "../Css/Homestyle.css";
 import "../Css/AboutMe.css";
 import Header from "./Header";
-import Footer from "../components/Footer";
 
 function AboutMe() {
   return (

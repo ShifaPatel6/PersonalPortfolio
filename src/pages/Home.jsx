@@ -54,7 +54,6 @@ function Home({ setactive }) {
                   applications. Skilled in React, Tailwind CSS, and JavaScript,
                   I bring designs to life with seamless UI/UX. Always learning,
                   always creating!
-                  
                 </p>
                 <div class="d-inline-flex gap-2 mb-5">
                   <button
@@ -73,8 +72,8 @@ function Home({ setactive }) {
                     style={{ backgroundColor: "#13073B", color: "white" }}
                   >
                     <a
-                      href="/assets/Patel Shifa Resume.pdf"
-                      download="Patel_Shifa_Resume.pdf"
+                      href="/assets/Resume.pdf"
+                      download="Patel Shifa Resume.pdf"
                       className="text text-decoration-none text-white"
                     >
                       Download Resume

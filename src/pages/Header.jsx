@@ -1,7 +1,6 @@
 import React from "react";
 import "../Css/Homestyle.css";
 import { MdOutlineMail } from "react-icons/md";
-import { AiOutlineLinkedin } from "react-icons/ai";
 import { TbBrandLinkedin } from "react-icons/tb";
 
 function Header({ showbutton = true }) {

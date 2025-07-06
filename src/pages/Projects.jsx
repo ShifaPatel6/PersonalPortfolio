@@ -5,6 +5,24 @@ import ModalImage from "../components/ModalImage";
 function Projects() {
   const ProjectsArray = [
     {
+      id: 4,
+      images: [
+        "/assets/ecommlogin.jpg",
+        "/assets/ecommregi.jpg",
+        "/assets/ecommhome.jpg",
+        "/assets/ecommhome1.jpg",
+        "/assets/ecommhome3.jpg",
+        "/assets/ecommhome4.jpg",
+        "/assets/fav.jpg",
+        "/assets/upload.jpg",
+        "/assets/upload1.jpg",
+      ],
+      img: "/assets/ecommlogin.jpg",
+      title: "Ecommerce Website",
+      body: "This is an AI-powered e-commerce website built using frontend technologies such as React, Bootstrap, HTML, and CSS. It integrates mock APIs for product listings, user login, and registration functionality. For the AI-based image search feature, the backend is developed in Python using pretrained models to extract embeddings and match products. Users can upload an image to instantly find visually similar products. The backend API is built with Python and utilizes an SQLite3 database for product metadata storage.",
+      technologies: "React , JavaScript, Bootstrap5 , Html, Python, Sqlite3 , FastApi",
+    },
+    {
       id: 1,
       images: ["/assets/SM1.png", "/assets/SM2.png"],
       img: "/assets/socialmedia.png",
@@ -34,14 +52,7 @@ function Projects() {
       body: "Developed a fully responsive frontend interface for anpersonal portfolio website using HTML, CSS, React , and JavaScript, enhanced with Bootstrap5 for layout and styling consistency. The system interface includes projects, personal details, professional experience.",
       technologies: "HTML , CSS , JavaScript , Bootstrap5, React",
     },
-    {
-      id: 4,
-      images: [],
-      img: "/assets/realestate.png",
-      title: "Real Estate Management",
-      body: "In progress.",
-      technologies: "React , Tailwind css , MongoDB , Html ",
-    },
+    
   ];
   return (
     <>
