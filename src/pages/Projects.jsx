@@ -20,7 +20,58 @@ function Projects() {
       img: "/assets/ecommlogin.jpg",
       title: "Ecommerce Website",
       body: "This is an AI-powered e-commerce website built using frontend technologies such as React, Bootstrap, HTML, and CSS. It integrates mock APIs for product listings, user login, and registration functionality. For the AI-based image search feature, the backend is developed in Python using pretrained models to extract embeddings and match products. Users can upload an image to instantly find visually similar products. The backend API is built with Python and utilizes an SQLite3 database for product metadata storage.",
-      technologies: "React , JavaScript, Bootstrap5 , Html, Python, Sqlite3 , FastApi",
+      technologies:
+        "React , JavaScript, Bootstrap5 , Html, Python, Sqlite3 , FastApi",
+    },
+    {
+      id: 7,
+      images: [
+        "/assets/dashboard.jpg",
+        "/assets/sales.jpg",
+        "/assets/Reps.jpg",
+        "/assets/product.jpg",
+        "/assets/repsPop.jpg",
+        "/assets/regions.jpg",
+        "/assets/regionPop.jpg",
+      ],
+      img: "/assets/dashboard.jpg",
+      title: "Sales Dashboard",
+      body: "This is MERN stack based Sales Dashboard website to help business to take their sales details by visualize grpahs.it can help owners to see their targets and meets , their product details, their sales representatives , top perfomring product and top performing sales representatives. Created and integrated API using nodejs and expressjs to display data of products , sales, regions , sales representatives. ",
+      technologies: "React , JavaScript, MaterialUI , Html, Nodejs, Expressjs",
+    },
+    {
+      id: 6,
+      images: [
+        "/assets/auth.jpg",
+        "/assets/auth1.jpg",
+        "/assets/auth2.jpg",
+        "/assets/auth3.jpg",
+        "/assets/auth4.jpg",
+        "/assets/auth5.jpg",
+        "/assets/auth6.jpg",
+        "/assets/auth7.jpg",
+        "/assets/auth8.jpg",
+        "/assets/auth9.jpg",
+      ],
+      img: "/assets/auth.jpg",
+      title: "Users Authentication System",
+      body: "I built a secure user authentication system using the MERN stack, focusing on backend functionality with Node.js, Express.js, and MongoDB. The system allows users to register and log in using JWT-based authentication. It includes an email verification flow where a one-time OTP is sent to the user's email, which must be entered to verify the account before login. All user data and verification statuses are stored in MongoDB. The frontend is built with React and styled using Material UI, creating a seamless and user-friendly interface throughout the registration, verification, and login process.",
+      technologies:
+        "React , Material UI , Html, MonogDb, Nodejs, Expressjs, JWT , bcrypt",
+    },
+    {
+      id: 5,
+      images: [
+        "/assets/chatbot1.jpg",
+        "/assets/chatbot2.jpg",
+        "/assets/chatbot3.jpg",
+        "/assets/chatbot4.jpg",
+      ],
+      img: "/assets/chatbot1.jpg",
+      title: "AI Chatbot",
+      body: "Developed a fully AI Chatbot.Integrated OpenRouter API for real-time AI interaction. Built a Node.js & Express.js backend to handle conversational logic and API communication. Designed a responsive and dynamic frontend using React, Tailwind CSS, and HTML. Enabled voice input functionality by integrating speech-to-text, allowing users to ask questions vocally.Added theme-switching support to enhance UI interactivity and user experience.",
+
+      technologies: "HTML , CSS , Nodejs , Tailwind Css, React , Expressjs",
     },
     {
       id: 1,
@@ -52,7 +103,6 @@ function Projects() {
       body: "Developed a fully responsive frontend interface for anpersonal portfolio website using HTML, CSS, React , and JavaScript, enhanced with Bootstrap5 for layout and styling consistency. The system interface includes projects, personal details, professional experience.",
       technologies: "HTML , CSS , JavaScript , Bootstrap5, React",
     },
-    
   ];
   return (
     <>
