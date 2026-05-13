@@ -103,6 +103,20 @@ function Projects() {
       body: "Developed a fully responsive frontend interface for anpersonal portfolio website using HTML, CSS, React , and JavaScript, enhanced with Bootstrap5 for layout and styling consistency. The system interface includes projects, personal details, professional experience.",
       technologies: "HTML , CSS , JavaScript , Bootstrap5, React",
     },
+    {
+      id: 8,
+      images: [
+        "/assets/portfolio.png",
+        "/assets/portfolio1.png",
+        "/assets/portfolio2.png",
+        "/assets/portfolio4.png",
+        "/assets/portfolio3.png",
+      ],
+      img: "/assets/portfolio.png",
+      title: "AI Freelancing tools",
+      body: "Developing AI freelancing tools using React, JavaScript, tailwind css, HTML, and CSS.using Nodejs and express js for backend and Supabase DB, The project includes a variety of AI-powered tools designed to assist freelancers in their work. These tools may include features such as AI-based content generation, Invoice generation, and productivity enhancement. The frontend is built with React for a dynamic user experience, while Bootstrap5 ensures a responsive and visually appealing design. The project aims to provide freelancers with innovative solutions to streamline their workflow and enhance their productivity.",
+      technologies: "HTML , CSS , JavaScript , Tailwind, React, Node js , Supabase",
+    },
   ];
   return (
     <>
