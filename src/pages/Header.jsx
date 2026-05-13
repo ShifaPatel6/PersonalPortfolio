@@ -12,8 +12,8 @@ function Header({ showbutton = true }) {
           {showbutton && (
             <button className="resume">
               <a
-                href="/assets/Patel Shifa Resume.pdf"
-                download="Patel_Shifa_Resume.pdf"
+                href="/assets/Shifa_Patel_Resume_D29.pdf"
+                download="Shifa_patel_Resume.pdf"
                 className="color"
               >
                 Download Resume
