@@ -5,6 +5,26 @@ import ModalImage from "../components/ModalImage";
 function Projects() {
   const ProjectsArray = [
     {
+      id: 8,
+      images: [
+        "/assets/login.png",
+        "/assets/brief.png",
+        "/assets/history.png",
+        "/assets/proposal.png",
+        "/assets/Pdfgenerator.png",
+        "/assets/followUp.png",
+        "/assets/bio.png",
+        "/assets/biooutput.png",
+
+       
+      ],
+      img:"/assets/login.png",
+      title: "AI Freelancing tools",
+      body: "Built a multi-feature SaaS application for freelancers using React.js, featuring an Invoice Generator with PDF export, Proposal Writer, and Bio Writer modules.Designed and developed a fully responsive UI with reusable component architecture using React and Tailwind CSS. Integrated Gemini API for AI-powered content generation (in progress), with frontend modules production-ready. Implemented clean navigation, dashboard layout, and modular feature structure for scalable backend integration.",
+      technologies: "HTML , CSS , JavaScript , Tailwind css, React , Supabase, Gemini API",
+
+    },
+    {
       id: 4,
       images: [
         "/assets/ecommlogin.jpg",
@@ -103,26 +123,7 @@ function Projects() {
       body: "Developed a fully responsive frontend interface for anpersonal portfolio website using HTML, CSS, React , and JavaScript, enhanced with Bootstrap5 for layout and styling consistency. The system interface includes projects, personal details, professional experience.",
       technologies: "HTML , CSS , JavaScript , Bootstrap5, React",
     },
-    {
-      id: 8,
-      images: [
-        "/assets/login.png",
-        "/assets/brief.png",
-        "/assets/history.png",
-        "/assets/proposal.png",
-        "/assets/Pdfgenerator.png",
-        "/assets/followUp.png",
-        "/assets/bio.png",
-        "/assets/biooutput.png",
-
-       
-      ],
-      img:"/assets/login.png",
-      title: "AI Freelancing tools",
-      body: "Built a multi-feature SaaS application for freelancers using React.js, featuring an Invoice Generator with PDF export, Proposal Writer, and Bio Writer modules.Designed and developed a fully responsive UI with reusable component architecture using React and Tailwind CSS. Integrated Gemini API for AI-powered content generation (in progress), with frontend modules production-ready. Implemented clean navigation, dashboard layout, and modular feature structure for scalable backend integration.",
-      technologies: "HTML , CSS , JavaScript , Tailwind css, React , Supabase, Gemini API",
-
-    },
+    
   ];
   return (
     <>
