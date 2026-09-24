@@ -72,7 +72,7 @@ function Home({ setactive }) {
                     style={{ backgroundColor: "#13073B", color: "white" }}
                   >
                     <a
-                      href="/assets/Shifa_Patel_Resume_J17.pdf"
+                      href="/assets/SHIFA_PATEL_RESUME.pdf"
                       download="Shifa_Patel_Resume"
                       className="text text-decoration-none text-white"
                     >

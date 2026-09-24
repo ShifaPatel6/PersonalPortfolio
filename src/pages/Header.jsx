@@ -12,7 +12,7 @@ function Header({ showbutton = true }) {
           {showbutton && (
             <button className="resume">
               <a
-                href="/assets/Shifa_Patel_Resume_J17.pdf"
+                      href="/assets/SHIFA_PATEL_RESUME.pdf"
                 download="Shifa_patel_Resume.pdf"
                 className="color"
               >

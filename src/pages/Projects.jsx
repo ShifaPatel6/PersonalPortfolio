@@ -106,13 +106,20 @@ function Projects() {
     {
       id: 8,
       images: [
-        "/assets/inprogress.png",
+        "/assets/login.png",
+        "/assets/brief.png",
+        "/assets/history.png",
+        "/assets/proposal.png",
+        "/assets/Pdf generator.png",
+        "/assets/followUp.png",
+        "/assets/bio.png",
+        "/assets/bio output.png",
+
        
       ],
-      img:"/assets/inprogress.png",
+      img:"/assets/login.png",
       title: "AI Freelancing tools",
-      body: "Developing AI freelancing tools using React, JavaScript, tailwind css, HTML, and CSS.using Nodejs and express js for backend and Supabase DB, The project includes a variety of AI-powered tools designed to assist freelancers in their work. These tools may include features such as AI-based content generation, Invoice generation, and productivity enhancement. The frontend is built with React for a dynamic user experience, while Bootstrap5 ensures a responsive and visually appealing design. The project aims to provide freelancers with innovative solutions to streamline their workflow and enhance their productivity.",
-      technologies: "HTML , CSS , JavaScript , Tailwind, React, Node js , Supabase",
+      body: "Built a multi-feature SaaS application for freelancers using React.js, featuring an Invoice Generator with PDF export, Proposal Writer, and Bio Writer modules.Designed and developed a fully responsive UI with reusable component architecture using React and Tailwind CSS. Integrated Gemini API for AI-powered content generation (in progress), with frontend modules production-ready. Implemented clean navigation, dashboard layout, and modular feature structure for scalable backend integration."
     },
   ];
   return (
